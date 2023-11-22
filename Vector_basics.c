@@ -17,15 +17,10 @@ void fail()
 
 void print(int length, int* array)
 {
-    if (length != 0)
+    for (int i = 0; i < length; i++)
     {
-        for (int i = 0; i < length; i++)
-        {
-            printf("%d\t", array[i]);
-        }
+        printf("%d\t", array[i]);
     }
-    else
-        printf("Массив не содержит в себе элементов.\n");
 }
 
 int main(int argc, char* argv[])
