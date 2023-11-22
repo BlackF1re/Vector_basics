@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Vector_basics.cpp">
+    <ClCompile Include="Vector_basics.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
